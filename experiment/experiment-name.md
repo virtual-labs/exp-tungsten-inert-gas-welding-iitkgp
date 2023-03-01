@@ -1,1 +1,1 @@
-## Experiment name
+# Principles of Tungsten Inert Gas Welding &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="./images/iitkgp.png" width="8%" />
