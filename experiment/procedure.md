@@ -7,4 +7,4 @@
 - Press ***Start*** button to start the experiment.
 - Observe the simulation.
 - Press ***Stop*** button to stop the experiment.
-- Repeate the experiment by selecting different material and polarity.
+- Repeat the experiment by selecting different material and polarity.
