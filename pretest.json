@@ -1,0 +1,27 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which of the following welding technique uses non-consumable electrode?",
+      "answers": {
+        "a": "Gas Metal Arc Welding",
+        "b": "Gas Tungsten Arc Welding",
+        "c": "Friction welding",
+        "d": "Submerged Arc Welding"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Melting temperature of Tungsten is",
+      "answers": {
+        "a": "4000°Celsius",
+        "b": "3400°Celsius",
+        "c": "5000°Celsius",
+        "d": "2000°Celsius"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

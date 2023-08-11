@@ -1,0 +1,55 @@
+
+/home/runner/work/exp-tungsten-inert-gas-welding-iitkgp/exp-tungsten-inert-gas-welding-iitkgp/experiment/license/view.js
+  1:246  warning  Unnecessary semicolon  no-extra-semi
+
+/home/runner/work/exp-tungsten-inert-gas-welding-iitkgp/exp-tungsten-inert-gas-welding-iitkgp/experiment/simulation/js/adiwe5.js
+   11:5   warning  'i' is already defined  no-redeclare
+   12:1   warning  '$' is not defined      no-undef
+   30:9   warning  '$' is not defined      no-undef
+   31:9   warning  '$' is not defined      no-undef
+   33:9   warning  '$' is not defined      no-undef
+   34:9   warning  '$' is not defined      no-undef
+   36:9   warning  '$' is not defined      no-undef
+   40:9   warning  '$' is not defined      no-undef
+   41:9   warning  '$' is not defined      no-undef
+   42:9   warning  '$' is not defined      no-undef
+   43:9   warning  '$' is not defined      no-undef
+   44:9   warning  '$' is not defined      no-undef
+   45:9   warning  '$' is not defined      no-undef
+   46:9   warning  '$' is not defined      no-undef
+   50:9   warning  '$' is not defined      no-undef
+   51:9   warning  '$' is not defined      no-undef
+   52:9   warning  '$' is not defined      no-undef
+   53:9   warning  '$' is not defined      no-undef
+   54:9   warning  '$' is not defined      no-undef
+   55:9   warning  '$' is not defined      no-undef
+   56:9   warning  '$' is not defined      no-undef
+   60:9   warning  '$' is not defined      no-undef
+   61:9   warning  '$' is not defined      no-undef
+   62:9   warning  '$' is not defined      no-undef
+   63:9   warning  '$' is not defined      no-undef
+   64:9   warning  '$' is not defined      no-undef
+   65:9   warning  '$' is not defined      no-undef
+   66:8   warning  '$' is not defined      no-undef
+   69:9   warning  '$' is not defined      no-undef
+   70:9   warning  '$' is not defined      no-undef
+   73:17  warning  '$' is not defined      no-undef
+   81:13  warning  '$' is not defined      no-undef
+   89:17  warning  '$' is not defined      no-undef
+   92:17  warning  '$' is not defined      no-undef
+  100:17  warning  '$' is not defined      no-undef
+  108:17  warning  '$' is not defined      no-undef
+  116:17  warning  '$' is not defined      no-undef
+  120:21  warning  '$' is not defined      no-undef
+  129:17  warning  '$' is not defined      no-undef
+  137:17  warning  '$' is not defined      no-undef
+  145:24  warning  '$' is not defined      no-undef
+  149:21  warning  '$' is not defined      no-undef
+  158:17  warning  '$' is not defined      no-undef
+  166:17  warning  '$' is not defined      no-undef
+  174:24  warning  '$' is not defined      no-undef
+  178:21  warning  '$' is not defined      no-undef
+
+✖ 47 problems (0 errors, 47 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+
