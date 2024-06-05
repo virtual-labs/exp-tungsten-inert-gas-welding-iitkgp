@@ -9,6 +9,12 @@
         "c": "Friction welding",
         "d": "Submerged Arc Welding"
       },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -19,6 +25,12 @@
         "b": "3400°Celsius",
         "c": "5000°Celsius",
         "d": "2000°Celsius"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
