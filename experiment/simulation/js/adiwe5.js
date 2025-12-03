@@ -30,159 +30,44 @@ function adiwe5(a){
         $("#adisim").hide();
         $('#inst').show();
         cmb=0;
-        $("#tnve").stop(true, true).fadeOut();
-        $("#tpve").stop(true, true).fadeOut();
         i=0;
         $("#estr").removeClass('active');
     }
     else if(a==1) {
         cmb=1;
-        $("#tnve").stop(true, true ).fadeOut();
-        $("#tpve").stop(true, true ).fadeOut();
         $("#adisim").show();
         $('#inst').hide();
-        $("#ti").attr("src","./images/DCEN_tp.png");
-        $("#met").attr("src","./images/steel_d2.png");
         $("#estr").removeClass('active');
+        $("#aditig").html("<div> <video id=\"adivid\" preload=\"auto\" autoplay>  <source src=\"./images/DCRP.mp4\" type=\"video/mp4\"> </video></div>");
+    $("#adivid").width('100%');
+    $("#adivid").playbackRate= 1.5;
+    $("#adivid").on("ended",function(){
+     $("#aditig").html("");
+    });
     }
     else if(a==2) {
         cmb=2;
-        $("#tnve").stop(true, true ).fadeOut();
-        $("#tpve").stop(true, true ).fadeOut();
         $("#adisim").show();
         $('#inst').hide();
-        $("#ti").attr("src","./images/DCEP_tp.png");
-        $("#met").attr("src","./images/steel_slw.png");
         $("#estr").removeClass('active');
+        $("#aditig").html("<div> <video id=\"adivid\" preload=\"auto\" autoplay>  <source src=\"./images/DCRP.mp4\" type=\"video/mp4\"> </video></div>");
+    $("#adivid").width('100%');
+    $("#adivid").playbackRate= 1.5;
+    $("#adivid").on("ended",function(){
+     $("#aditig").html("");
+    });
     }
     else if(a==3) {
         cmb=3;
-        $("#tnve").stop(true, true ).fadeOut();
-        $("#tpve").stop(true, true ).fadeOut();
         $("#adisim").show();
         $('#inst').hide();
-        $("#ti").attr("src","./images/AC_btp.png");
-        $("#met").attr("src","./images/alum_med.png");
-       $("#estr").removeClass('active');
+        $("#estr").removeClass('active');
+        $("#aditig").html("<div> <video id=\"adivid\" preload=\"auto\" autoplay>  <source src=\"./images/ACP.mp4\" type=\"video/mp4\"> </video></div>");
+    $("#adivid").width('100%');
+    $("#adivid").playbackRate= 1.5;
+    $("#adivid").on("ended",function(){
+     $("#aditig").html("");
+    });
     }
-    else if(a==4){
-        $("#tpve").stop(true, true ).fadeIn();
-        $("#tnve").stop(true, true ).fadeIn();
-        if(cmb==1){
-            i=0;
-                $("#tnve").css(
-                {
-                    "position": "relative",
-                    "scale": "0.1",
-                    "bottom": "18%",
-                    "right": '14.2%'
-                }
-                 );
-            $("#tpve").css(
-                {
-                    "position": "relative",
-                    "scale": "0.1",
-                    "bottom": "-25.5%",
-                    "right": '-12%'
-                }
-                 );
-                $("#tnve").animate({
-                  bottom: '-25.5%',
-                },2000);
-                $("#tpve").animate({
-                    bottom: '18%',
-                  },2000,function() {
-                    adiwe5(4);
-                });
-                
-        }else if(cmb==2){
-            i=0;
-                $("#tpve").css(
-                    {
-                        "position": "relative",
-                        "scale": "0.1",
-                        "bottom": "18%",
-                        "right": '-12%'
-                    }
-                     );
-                $("#tnve").css(
-                    {
-                        "position": "relative",
-                        "scale": "0.1",
-                        "bottom": "-25.5%",
-                        "right": '14.2%'
-                    }
-                      );
-                $("#tpve").animate({
-                      bottom: '-25.5%',
-                      scale: '1',
-                    },2000);
-                    $("#tnve").animate({
-                        bottom: '18%',
-                        scale: '1',
-                      },2000,function() {
-                        adiwe5(4);
-                    });
-            
-        }else if(cmb==3){
-            if(i%2==0){
-                $("#tpve").css(
-                    {
-                        "position": "relative",
-                        "scale": "0.1",
-                        "bottom": "18%",
-                        "right": '-12%'
-                    }
-                    );
-                $("#tnve").css(
-                    {
-                        "position": "relative",
-                        "scale": "0.1",
-                        "bottom": "-25.5%",
-                        "right": '14.2%'
-                    }
-                     );
-                       $("#tpve").animate({
-                      bottom: '-25.5%',
-                      scale: '1',
-                    },2000);
-                    $("#tnve").animate({
-                        bottom: '18%',
-                        scale: '1',
-                      },2000,function() {
-                        i=i+1;
-                        adiwe5(4);
-                    });
-                }else{
-
-                $("#tnve").css(
-                    {
-                        "position": "relative",
-                        "scale": "0.1",
-                        "bottom": "18%",
-                        "right": '14.2%'
-                    }
-                );
-                $("#tpve").css(
-                    {
-                        "position": "relative",
-                        "scale": "0.1",
-                        "bottom": "-25.5%",
-                        "right": '-12%'
-                    }
-                );
-                       $("#tnve").animate({
-                      bottom: '-25.5%',
-                      scale: '1',
-                    },2000);
-                    $("#tpve").animate({
-                        bottom: '18%',
-                        scale: '1',
-                      },2000,function() {
-                        i=i+1;
-                        adiwe5(4);
-                    });
-            }
-        }
-    }
+    
 }
