@@ -53,6 +53,9 @@ function adiwe5(a){
         $("#adivid").playbackRate= 1.5;
         $("#adivid").on("ended",function(){
         $("#aditig").html("");
+        $('#DSP').removeClass('active');
+        $('#DRP').removeClass('active');
+        $('#AC').removeClass('active');
         });
         }
         else if(cmb==2) {
@@ -65,6 +68,9 @@ function adiwe5(a){
         $("#adivid").playbackRate= 1.5;
         $("#adivid").on("ended",function(){
         $("#aditig").html("");
+        $('#DSP').removeClass('active');
+        $('#DRP').removeClass('active');
+        $('#AC').removeClass('active');
         });
         }
         else if(cmb==3) {
@@ -77,6 +83,9 @@ function adiwe5(a){
         $("#adivid").playbackRate= 1.5;
         $("#adivid").on("ended",function(){
         $("#aditig").html("");
+        $('#DSP').removeClass('active');
+        $('#DRP').removeClass('active');
+        $('#AC').removeClass('active');
         });
         }
     }
