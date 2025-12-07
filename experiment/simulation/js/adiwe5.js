@@ -35,39 +35,62 @@ function adiwe5(a){
     }
     else if(a==1) {
         cmb=1;
-        $("#adisim").show();
-        $('#inst').hide();
-        $("#estr").removeClass('active');
-        $("#aditig").html("<div> <video id=\"adivid\" preload=\"auto\" autoplay>  <source src=\"./images/DCRP.mp4\" type=\"video/mp4\"> </video></div>");
-    $("#adivid").width('100%');
-    $("#adivid").playbackRate= 1.5;
-    $("#adivid").on("ended",function(){
-     $("#aditig").html("");
-    });
     }
     else if(a==2) {
         cmb=2;
-        $("#adisim").show();
-        $('#inst').hide();
-        $("#estr").removeClass('active');
-        $("#aditig").html("<div> <video id=\"adivid\" preload=\"auto\" autoplay>  <source src=\"./images/DCRP.mp4\" type=\"video/mp4\"> </video></div>");
-    $("#adivid").width('100%');
-    $("#adivid").playbackRate= 1.5;
-    $("#adivid").on("ended",function(){
-     $("#aditig").html("");
-    });
     }
     else if(a==3) {
         cmb=3;
-        $("#adisim").show();
-        $('#inst').hide();
-        $("#estr").removeClass('active');
-        $("#aditig").html("<div> <video id=\"adivid\" preload=\"auto\" autoplay>  <source src=\"./images/ACP.mp4\" type=\"video/mp4\"> </video></div>");
-    $("#adivid").width('100%');
-    $("#adivid").playbackRate= 1.5;
-    $("#adivid").on("ended",function(){
-     $("#aditig").html("");
-    });
+    }
+    else if(a==4) {
+        if(cmb==1) {
+            cmb=0;
+            $("#adisim").show();
+            $('#inst').hide();
+            $("#estr").removeClass('active');
+            $("#aditig").html("<div> <video id=\"adivid\" preload=\"auto\" autoplay>  <source src=\"./images/DCSP.mp4\" type=\"video/mp4\"> </video></div>");
+        $("#adivid").width('100%');
+        $("#adivid").playbackRate= 1.5;
+        $("#adivid").on("ended",function(){
+        $("#aditig").html("");
+        });
+        }
+        else if(cmb==2) {
+            cmb=0;
+            $("#adisim").show();
+            $('#inst').hide();
+            $("#estr").removeClass('active');
+            $("#aditig").html("<div> <video id=\"adivid\" preload=\"auto\" autoplay>  <source src=\"./images/DCRP.mp4\" type=\"video/mp4\"> </video></div>");
+        $("#adivid").width('100%');
+        $("#adivid").playbackRate= 1.5;
+        $("#adivid").on("ended",function(){
+        $("#aditig").html("");
+        });
+        }
+        else if(cmb==3) {
+            cmb=0;
+            $("#adisim").show();
+            $('#inst').hide();
+            $("#estr").removeClass('active');
+            $("#aditig").html("<div> <video id=\"adivid\" preload=\"auto\" autoplay>  <source src=\"./images/ACP.mp4\" type=\"video/mp4\"> </video></div>");
+        $("#adivid").width('100%');
+        $("#adivid").playbackRate= 1.5;
+        $("#adivid").on("ended",function(){
+        $("#aditig").html("");
+        });
+        }
+    }
+    else if(a==5) {
+        cmb=0;
+        $('#DSP').removeClass('active');
+        $('#DRP').removeClass('active');
+        $('#AC').removeClass('active');
+    }
+    else if(a==6) {
+        cmb=0; 
+        $('#DSP').removeClass('active');
+        $('#DRP').removeClass('active');
+        $('#AC').removeClass('active');
     }
     
 }
