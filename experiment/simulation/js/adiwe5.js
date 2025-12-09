@@ -48,7 +48,7 @@ function adiwe5(a){
             $("#adisim").show();
             $('#inst').hide();
             $("#estr").removeClass('active');
-            $("#aditig").html("<div> <video id=\"adivid\" preload=\"auto\" autoplay>  <source src=\"./images/DCSP.mp4\" type=\"video/mp4\"> </video></div>");
+            $("#aditig").html("<video id=\"adivid\" preload=\"auto\" autoplay>  <source src=\"./images/DCSP.mp4\" type=\"video/mp4\"> </video>");
         $("#adivid").width('100%');
         $("#adivid").playbackRate= 1.5;
         $("#adivid").on("ended",function(){
@@ -63,7 +63,7 @@ function adiwe5(a){
             $("#adisim").show();
             $('#inst').hide();
             $("#estr").removeClass('active');
-            $("#aditig").html("<div> <video id=\"adivid\" preload=\"auto\" autoplay>  <source src=\"./images/DCRP.mp4\" type=\"video/mp4\"> </video></div>");
+            $("#aditig").html(" <video id=\"adivid\" preload=\"auto\" autoplay>  <source src=\"./images/DCRP.mp4\" type=\"video/mp4\"> </video>");
         $("#adivid").width('100%');
         $("#adivid").playbackRate= 1.5;
         $("#adivid").on("ended",function(){
@@ -78,7 +78,7 @@ function adiwe5(a){
             $("#adisim").show();
             $('#inst').hide();
             $("#estr").removeClass('active');
-            $("#aditig").html("<div> <video id=\"adivid\" preload=\"auto\" autoplay>  <source src=\"./images/ACP.mp4\" type=\"video/mp4\"> </video></div>");
+            $("#aditig").html("<video id=\"adivid\" preload=\"auto\" autoplay>  <source src=\"./images/ACP.mp4\" type=\"video/mp4\"> </video>");
         $("#adivid").width('100%');
         $("#adivid").playbackRate= 1.5;
         $("#adivid").on("ended",function(){
