@@ -1,0 +1,161 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Current used in GTAW is",
+      "answers": {
+        "a": "Direct Current(DC)",
+        "b": "Alternate Current(AC)",
+        "c": "Both a & b",
+        "d": "None of the above"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following materials have highest melting point",
+      "answers": {
+        "a": "Tungsten",
+        "b": "Copper",
+        "c": "Aluminium",
+        "d": "Zinc"
+      },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+  {
+      "question": "Which gas is commonly used as shielding gas in GTAW",
+      "answers": {
+        "a": "Oxygen",
+        "b": "Argon",
+        "c": "Helium",
+        "d": "Neon"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Gas Tungsten Arc welding is usually used in which polarity ",
+      "answers": {
+        "a": "Direct Current Straight Polarity",
+        "b": "Direct Current Reverse Polarity",
+        "c": "Both a & b",
+        "d": "None of the above"
+      },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+{
+      "question": "GTAW nozzle is made up of",
+      "answers": {
+        "a": "Aluminium",
+        "b": "Brass",
+        "c": "Ceramic",
+        "d": "Tin"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+{
+      "question": "While using Direct Current Straight Polarity (DCSP) in GTAW, what is the heat balance on the electrode and workpiece?",
+      "answers": {
+        "a": "60% at electrode 30% at workpiece",
+        "b": "40% at electrode 60% at workpiece",
+        "c": "30% at electrode 70% at workpiece",
+        "d": "80% at electrode 20% at workpiece"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+{
+      "question": "While using Alternating Current (AC) GTAW what is the arc's heat balance?",
+      "answers": {
+        "a": "60% at electrode 40% at workpiece",
+        "b": "50% at electrode 50% at workpiece",
+        "c": "30% at electrode 70% at workpiece",
+        "d": "40% at electrode 60% at workpiece"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+{
+      "question": "GTAW of aluminium is performed by which polarity",
+      "answers": {
+        "a": "Direct Current Straight Polarity (DCSP)",
+        "b": "Alternate Current (AC)",
+        "c": "Direct Current Reverse Polarity (DCRP)",
+        "d": "Both a & b "
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Oxide cleaning action occurs in which type of polarity in GTAW",
+      "answers": {
+        "a": "Direct Current Reverse Polarity (DCRP)",
+        "b": "Direct Current Straight Polarity (DCSP)",
+        "c": "Alternate Current (AC)",
+        "d": "None of the above"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+]
+
+}
+
+
