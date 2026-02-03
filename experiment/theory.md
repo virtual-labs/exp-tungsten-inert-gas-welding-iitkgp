@@ -1,5 +1,5 @@
 #  Introduction:
-Gas Tungsten Arc Welding (GTAW) is a method of   electric arc welding process in which the energy of fusion is utilized by an electric arc between the tungsten electrode and workpiece, shielding gas is focused around the electric arc which helps in protecting the weld pool from oxidation from the atmospheric air. Shielding gas such as Ar, He and CO2 is focused to the weld pool through a gas nozzle. GTAW is distinct from Metal Inert Gas and Manual Metal Arc welding because the electrode is non-consumable in GTAW and uses filler wire from external source as shown in Figure 1. GTAW can be done with or without filler material. GTAW without filler material is called autogenous welding.
+Gas Tungsten Arc Welding (GTAW) is a method of   electric arc welding process in which the energy of fusion is utilized by an electric arc between the tungsten electrode and workpiece, shielding gas is focused around the electric arc which helps in protecting the weld pool from oxidation from the atmospheric air. Shielding gas such as Ar, He and CO<sub>2</sub> are focused to the weld pool through a gas nozzle. The tungsten electrodes does not melt during welding is also termed as a non-consumable electrode. In GTAW welding arc is generated between the tungsten electrode and workpiece. A filler material will be added externally when it is required as shown in Figure 1. In other welding processes such as Shielded Metal Arc Welding (SMAW) and Gas Metal Arc Welding (GMAW) the electrode melts and is termed as consumable electrode.
 
 <center>
 <img src="./images/Fig1.png" style="width:50%;" alt="Figure 1">
@@ -64,6 +64,12 @@ In DC GTAW it uses Direct Current Straight Polarity (DCSP) or direct current ele
 In Direct Current Reverse Polarity (DCRP) or Direct Current Electrode Positive (DCEP) workpiece is connected to negative terminal and tungsten electrode is connected to positive terminal Approximately 30% of the total heat energy produced is distributed to the workpiece connected to the positive terminal and approximately 70% to the heat is distributed to electrode connected to negative terminal.The bead penetration is lowest with DCRP and oxide cleaning action doesn’t occur in DCRP.
 
 In Alternating current TIG welding, the electrode is positive for half of the time and the work piece is negative for the other half. In the subsequent half-period, the polarity will reverse. This indicates that 50% of the heat energy is transferred to the electrode and 50% to the work piece. Oxide cleaning action will occur in DCEP portion of alternating current.
+
+<center>
+<img src="./images/Fig5.png" style="width:50%;" alt="Figure 4">
+
+***Figure 5. Schematic representation of tungsten electrode and workpiece (a) DCSP, (b) DCRP, (c) AC***
+</center>
 
 GTAW can be used for welding materials like stainless steels, aluminium, nickel, titanium and magnesium alloys.
 
