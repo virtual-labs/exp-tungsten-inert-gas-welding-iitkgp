@@ -34,6 +34,57 @@
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following welding technique uses consumable electrode?",
+      "answers": {
+        "a": "Gas Metal Arc Welding",
+        "b": "Gas Tungsten Arc Welding",
+        "c": "Friction welding",
+        "d": "Submerged Arc Welding"
+      },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which are the following welding techniques are classified under fusion welding?",
+      "answers": {
+        "a": "Gas Metal Arc Welding",
+        "b": "Gas Tungsten Arc Welding",
+        "c": "Friction welding",
+        "d": "Both a and b"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In which welding technique filler wire is used externally?",
+      "answers": {
+        "a": "Gas Metal Arc Welding",
+        "b": "Resistance Spot Welding",
+        "c": "Friction welding",
+        "d": "Gas Tungsten Arc Welding"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
     }
   ]
 }
